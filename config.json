@@ -1,0 +1,29 @@
+{
+    "config": {
+        "atalaiaServer": {
+        }
+    },
+    "ui_config": {
+        "parameters": [
+            {
+                "file": "sentinel",
+                "section": "telemetry",
+                "key": "telemetry_interval_ms",
+                "type": "integer",
+                "default": 1000,
+                "min": 1000,
+                "max": 86400000,
+                "description": "Telemetry interval in milliseconds"
+            },
+            {
+                "file": "atalaiaServer",
+                "section": "hierarchy",
+                "key": "type",
+                "type": "integer",
+                "default": 0,
+                "allowed_values": [-1, 0],
+                "description": "Camera hierarchy type (-1: camera 2d, 0: camera stereo)"
+            }
+        ]
+    }
+}

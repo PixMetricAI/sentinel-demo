@@ -1,0 +1,1 @@
+import{j as o}from"./vendor-CTUQK53j.js";import{u as n}from"./index-BNLfjLui.js";import"./forms-DZYlCmSs.js";import"./radix-DnYHSXNU.js";function l(){const{t}=n();return o.jsxs("section",{children:[o.jsx("h1",{children:t("shell.notFound.title")}),o.jsx("p",{children:t("shell.notFound.body")})]})}export{l as NotFound};
